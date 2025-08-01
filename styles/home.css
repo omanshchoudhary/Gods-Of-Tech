@@ -1,0 +1,30 @@
+body{
+    
+    background-color: rgb(18, 18, 18);
+    
+    height: 100vh;
+    
+}
+
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid white;
+}
+
+.header .welcome-line{
+    font-size: 24px;
+}
+
+.header .nav-bar{  
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.header .nav-bar button{
+    background-color: transparent;
+    border: none;
+}
